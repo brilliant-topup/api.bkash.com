@@ -1,0 +1,14 @@
+POST /v1.2.0-beta/tokenized/checkout/payment/status
+Host: api.bkash.com
+Authorization: Bearer rV6Iei7Fh4G4n7UiX8Y6t3KlTQzCyMk1az3JDoq5BhQ
+Content-Type: application/json
+
+{
+    "trxID": "user"
+}
+{
+    "status": "Completed",
+    "amount": "productamount+10%",
+    "currency": "BDT",
+    "transactionReference": "account:01400474618"
+}
